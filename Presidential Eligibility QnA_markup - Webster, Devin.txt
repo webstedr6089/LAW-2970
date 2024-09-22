@@ -1,0 +1,34 @@
+Title: Presidential Eligibility
+Author: Devin Webster
+Description: LAW-2970 Class Assignment
+
+Q(1): Hello! Would you like to see if you qualify for President of the United States of America?
+A: Yes please!
+	Q(1.1): Will you be 35 or older by January 20th of the upcoming Presidential Inauguration?
+	A: Yes.
+		Q(1.1.1): Were you born within a US state, district, or territory?
+		A: Yes
+			Q(1.1.1.1): Do you have a residential address In the US?
+			A: Yes.
+				Q(1.1.1.1.1): Have you spent at least the majority of the year (6mo+1day) per year over the last 14 years In the US? 
+				A: Yes. 
+					Q(1.1.1.1.1.1): Congratulations! You are eligible to be the President of the United States of America!!
+				A: No.
+					Q(1.1.1.1.1.2):GOTO:W
+			A: No.
+				Q(1.1.1.1.2):GOTO:W
+		A: No
+			Q(1.1.1.2): Were you born outside of the US by US Citizens serving in the US gov’t?
+			A: Yes.
+			A: No.
+				Q(1.1.1.2.2): Were you born outside of the US by US citizens not in gov’t service?
+				A: Yes.
+					Q(1.1.1.2.2.1): Please consult an election lawyer for a further analysis regarding eligibility.
+				A: No.	
+					Q(1.1.1.2.2.2):GOTO:F
+	A: No.
+		Q(1.1.2):GOTO:W
+A: No.
+	Q(1.2): Have a good day! GOTO:1
+Q(F): As a non-citizen, you are not eligible to be president.
+Q(W): You are currently not eligible to be president.
