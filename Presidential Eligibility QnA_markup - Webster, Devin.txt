@@ -32,5 +32,5 @@ A: Yes please!
 A: No.
 	Q(1.2): Have a good day! GOTO:1
 Q(F): As a non-citizen, you are not eligible to be president.
-Q(W): You are currently not eligible to be president. Please wait and tru 
+Q(W): You are currently not eligible to be president. Please wait and try again.
 Q(E): Congratulations! You are eligible to be the President of the United States of America!!
